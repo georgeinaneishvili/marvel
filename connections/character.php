@@ -7,8 +7,8 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH
   $character_id = $_GET['character-id'];
 
   $ts = time();
-  $public_key = '<!-- Your Public Key Here -->';
-  $private_key = '<!-- Your Private Key Here -->';
+  $public_key = '96bb9d58458eb5d8230c8775ae4b9ba3';
+  $private_key = '1e553d0e643924341fa5c8eef1e44dff3f0a99e2';
   $hash = md5($ts . $private_key . $public_key);
 
   $query = array(

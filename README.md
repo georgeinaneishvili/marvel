@@ -1,5 +1,5 @@
 # marvel
-creating marvel search engine with comics stories and photos
+creating marvel search engine with comics stories,photos and characters 
 
-all of scripts is copied from jesushilarioh
+
 
